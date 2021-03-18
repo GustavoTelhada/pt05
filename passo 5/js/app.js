@@ -8,9 +8,6 @@ function getRandomColor() {
   }
 
 
-
-
-
 for (var i=1; i<28; i++){
   var aluno = "aluno-";
   document.getElementById(aluno + i).style.color = getRandomColor();

@@ -9,6 +9,8 @@ html{
 
 body{
     font-size: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 header h1{
@@ -20,9 +22,10 @@ header h1{
 
 
 .content-table{
-    position:relative;
-    width: 90vw;
-    height: 90vh;
+    align-self: center;
+    position: absolute;
+    width: 80vw;
+    height: 130vh;
     border-collapse: collapse;
     margin: 25px 0;
     margin-left: auto;
